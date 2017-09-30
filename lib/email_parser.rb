@@ -6,5 +6,5 @@ class EmailParser
   attr_accessor :emails
 
   def parse
-    formatted_emails = @emails.tr(",", " ")
+    formatted_emails = @emails.tr(",", "")
   end
