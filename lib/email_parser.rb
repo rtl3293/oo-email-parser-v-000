@@ -7,6 +7,7 @@ class EmailParser
 
   def initialize(emails)
     @emails = emails
+  end
   def parse
     formatted_emails = @emails.tr(",", "")
     formatted_emails.split()
