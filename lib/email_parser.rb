@@ -11,6 +11,6 @@ class EmailParser
   def parse
     formatted_emails = @emails.tr(",", "")
     separated_emails = formatted_emails.split()
-    
+    separated_emails.uniq
   end
 end
