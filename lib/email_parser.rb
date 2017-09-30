@@ -9,3 +9,4 @@ class EmailParser
     formatted_emails = @emails.tr(",", "")
     formatted_emails.split()
   end
+end
